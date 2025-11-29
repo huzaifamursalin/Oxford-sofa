@@ -1,0 +1,130 @@
+#navbarNav {
+    justify-content: end;
+}
+
+.nav-link {
+    color: #764b36;
+    font-size: 20px;
+}
+
+.nav-item :hover {
+    color: #ca9b84;
+}
+
+.nav-item :focus {
+    color: #ca9b84;
+    height: 50px;
+    width: 70px;
+    border: 1px transparent solid;
+    border-radius: 10px;
+    background-color: #764b36;
+}
+
+#navitem2 :focus {
+    color: #ca9b84;
+    height: 50px;
+    width: 80px;
+    border: 1px transparent solid;
+    border-radius: 10px;
+    background-color: #764b36;
+}
+
+#navitem3 :focus {
+    color: #ca9b84;
+    height: 50px;
+    width: 160px;
+    border: 1px transparent solid;
+    border-radius: 10px;
+    background-color: #764b36;
+}
+
+#navitem4 :focus {
+    color: #ca9b84;
+    height: 50px;
+    width: 80px;
+    border: 1px transparent solid;
+    border-radius: 10px;
+    background-color: #764b36;
+}
+
+#navitem5 :focus {
+    color: #ca9b84;
+    height: 50px;
+    width: 105px;
+    border: 1px transparent solid;
+    border-radius: 10px;
+    background-color: #764b36;
+}
+
+#navitem6 :focus {
+    color: #ca9b84;
+    height: 50px;
+    width: 155px;
+    border: 1px transparent solid;
+    border-radius: 10px;
+    background-color: #764b36;
+}
+
+#gallery{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+#gallery img{
+    width: 225px;
+    height: 200px;
+    border: 2px solid transparent;
+    border-radius: 13px;
+    cursor: pointer;
+    margin: 10px;
+    transition: 400ms;
+}
+
+#gallery img:hover{
+    filter: grayscale(1);
+    transform: scale(1.03);
+}
+
+h1{
+    font-size: 80px;
+    color: #764b36;
+    text-align: center;
+    margin: 50px;
+}
+
+#abouthead{
+    font-size: 65px;
+    color: #764b36;
+    text-align: left;
+    margin: 50px;
+}
+
+#aboutpara{
+    font-size: 30px;
+    color: #ac755a;
+    text-align: left;
+    margin: 50px;
+}
+
+#aboutsubhead{
+    font-size: 50px;
+    color: #ca9b84;
+    text-align: left;
+    margin: 50px;
+}
+
+#aboutimg{
+        width: 240px;
+    height: 200px;
+    border: 2px solid transparent;
+    border-radius: 13px;
+    cursor: pointer;
+    margin: 10px;
+    transition: 400ms;
+    margin-left: 120px;
+}
+
+#aboutimg:hover{
+    transform: scale(1.03);
+}

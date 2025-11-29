@@ -1,0 +1,129 @@
+#navbarNav {
+    justify-content: end;
+}
+
+.nav-link {
+    color: #764b36;
+    font-size: 20px;
+}
+
+.nav-item :hover {
+    color: #ca9b84;
+}
+
+.nav-item :focus {
+    color: #ca9b84;
+    height: 50px;
+    width: 70px;
+    border: 1px transparent solid;
+    border-radius: 10px;
+    background-color: #764b36;
+}
+
+#navitem2 :focus {
+    color: #ca9b84;
+    height: 50px;
+    width: 80px;
+    border: 1px transparent solid;
+    border-radius: 10px;
+    background-color: #764b36;
+}
+
+#navitem3 :focus {
+    color: #ca9b84;
+    height: 50px;
+    width: 160px;
+    border: 1px transparent solid;
+    border-radius: 10px;
+    background-color: #764b36;
+}
+
+#navitem4 :focus {
+    color: #ca9b84;
+    height: 50px;
+    width: 80px;
+    border: 1px transparent solid;
+    border-radius: 10px;
+    background-color: #764b36;
+}
+
+#navitem5 :focus {
+    color: #ca9b84;
+    height: 50px;
+    width: 105px;
+    border: 1px transparent solid;
+    border-radius: 10px;
+    background-color: #764b36;
+}
+
+#navitem6 :focus {
+    color: #ca9b84;
+    height: 50px;
+    width: 155px;
+    border: 1px transparent solid;
+    border-radius: 10px;
+    background-color: #764b36;
+}
+
+.back {
+    background-color: #764b36;
+    padding: 20px;
+    display: flex;
+}
+
+.text {
+    font-size: 20px;
+    padding: 20px;
+    align-content: end;
+    font-weight: bold;
+    color: white;
+}
+
+.ctext {
+    padding: 20px;
+    align-content: end;
+    color: white;
+}
+
+.row{
+    justify-content: center;
+}
+
+.btn-primary{
+    width: 120px;
+    background-color: #764b36;
+    border: none;
+    border-radius: 10px;
+}
+
+.btn-primary:hover{
+    background-color: #764b36;
+}
+
+
+.card-title{
+    color: #764b36;
+    font-size: 30px;
+}
+
+h4{
+    font-size: 20px;
+    color: #764b36;
+}
+
+.head{
+    color: #764b36;
+    text-align: center;
+    font-size: 70px;
+    margin: 30px;
+}
+
+.card-hover {
+    transition: all 1s ease;
+    border-radius: 20px;
+}
+
+.card-hover:hover {
+    transform: translateY(-10px) scale(1.05);
+    box-shadow: 0 20px 35px rgba(0, 0, 0, 0.25);
+}

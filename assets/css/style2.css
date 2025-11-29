@@ -1,0 +1,163 @@
+#navbarNav {
+    justify-content: end;
+}
+
+.nav-link {
+    color: #764b36;
+    font-size: 20px;
+}
+
+.nav-item :hover {
+    color: #ca9b84;
+}
+
+.nav-item :focus {
+    color: #ca9b84;
+    height: 50px;
+    width: 70px;
+    border: 1px transparent solid;
+    border-radius: 10px;
+    background-color: #764b36;
+}
+
+#navitem2 :focus {
+    color: #ca9b84;
+    height: 50px;
+    width: 80px;
+    border: 1px transparent solid;
+    border-radius: 10px;
+    background-color: #764b36;
+}
+
+#navitem3 :focus {
+    color: #ca9b84;
+    height: 50px;
+    width: 160px;
+    border: 1px transparent solid;
+    border-radius: 10px;
+    background-color: #764b36;
+}
+
+#navitem4 :focus {
+    color: #ca9b84;
+    height: 50px;
+    width: 80px;
+    border: 1px transparent solid;
+    border-radius: 10px;
+    background-color: #764b36;
+}
+
+#navitem5 :focus {
+    color: #ca9b84;
+    height: 50px;
+    width: 105px;
+    border: 1px transparent solid;
+    border-radius: 10px;
+    background-color: #764b36;
+}
+
+#navitem6 :focus {
+    color: #ca9b84;
+    height: 50px;
+    width: 155px;
+    border: 1px transparent solid;
+    border-radius: 10px;
+    background-color: #764b36;
+}
+
+.wrapper-body {
+    height: 600px;
+    width: 1280px;
+    display: flex;
+    justify-self: center;
+    justify-content: center;
+      background-image: url('https://img.freepik.com/free-psd/empty-room-wall-psd-japandi-interior_53876-109302.jpg?semt=ais_hybrid&w=740&q=80');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.wrapper {
+    display: flex;
+    align-self: center;
+    justify-content: center;
+    background:rgb(139, 139, 139);
+    width: 300PX;
+    height: 300PX;
+    padding: 20px;
+    border-radius: 20px;
+}
+
+.wrapper h1{
+    text-align: center;
+}
+
+input {
+    width: 250px;
+    padding: 5px;
+    border-radius: 12px;
+    border: none;
+}
+
+.input-box i {
+    width: 20px;
+    position: relative;
+    right: -225px;
+    top: -27px;
+}
+
+.btn {
+    height: 40px;
+    width: 80px;
+    padding: 5px;
+    align-self: center;
+    background-color: #764b36;
+    transition: 400ms;
+}
+
+.btn:hover {
+    transform: scale(1.03);
+}
+
+.row{
+    justify-content: center;
+}
+
+.btn-primary{
+    width: 120px;
+    background-color: #764b36;
+    border: none;
+    border-radius: 10px;
+}
+
+.btn-primary:hover{
+    background-color: #764b36;
+}
+
+
+.card-title{
+    color: #764b36;
+    font-size: 30px;
+}
+
+h4{
+    font-size: 20px;
+    color: #764b36;
+}
+
+.head{
+    color: #764b36;
+    text-align: center;
+    font-size: 70px;
+    margin: 30px;
+}
+
+.card-hover {
+    transition: all 1s ease;
+    border-radius: 20px;
+}
+
+.card-hover:hover {
+    transform: translateY(-10px) scale(1.05);
+    box-shadow: 0 20px 35px rgba(0, 0, 0, 0.25);
+}

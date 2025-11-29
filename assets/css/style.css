@@ -1,0 +1,167 @@
+#navbarNav {
+    justify-content: end;
+}
+
+.nav-link {
+    color: #764b36;
+    font-size: 20px;
+}
+
+.nav-item :hover {
+    color: #ca9b84;
+}
+
+.nav-item :focus {
+    color: #ca9b84;
+    height: 50px;
+    width: 70px;
+    border: 1px transparent solid;
+    border-radius: 10px;
+    background-color: #764b36;
+}
+
+#navitem2 :focus {
+    color: #ca9b84;
+    height: 50px;
+    width: 80px;
+    border: 1px transparent solid;
+    border-radius: 10px;
+    background-color: #764b36;
+}
+
+#navitem3 :focus {
+    color: #ca9b84;
+    height: 50px;
+    width: 160px;
+    border: 1px transparent solid;
+    border-radius: 10px;
+    background-color: #764b36;
+}
+
+#navitem4 :focus {
+    color: #ca9b84;
+    height: 50px;
+    width: 80px;
+    border: 1px transparent solid;
+    border-radius: 10px;
+    background-color: #764b36;
+}
+
+#navitem5 :focus {
+    color: #ca9b84;
+    height: 50px;
+    width: 105px;
+    border: 1px transparent solid;
+    border-radius: 10px;
+    background-color: #764b36;
+}
+
+#navitem6 :focus {
+    color: #ca9b84;
+    height: 50px;
+    width: 155px;
+    border: 1px transparent solid;
+    border-radius: 10px;
+    background-color: #764b36;
+}
+
+#crousalbtn {
+    margin-top: -240px;
+    font-size: 40px;
+    height: 100px;
+    width: 300px;
+    background-color: #764b36;
+    color: #ca9b84;
+    border-radius: 30px;
+    text-decoration: none;
+    cursor: pointer;
+    transition: transform 0.3s cubic-bezier(.25, 1.4, .5, 1.4),
+        box-shadow 0.3s ease;
+}
+
+#crousalbtn:hover {
+    transform: scale(1.13);
+    box-shadow: 0 12px 30px rgba(0, 0, 0, 0.25);
+}
+
+#Categorycards {
+    border: none;
+}
+
+#Categorycards :hover {
+    transition: all 1s ease;
+    transform: translateY(-10px) scale(1.05);
+    box-shadow: 0 20px 35px rgba(0, 0, 0, 0.25);
+}
+
+#Categorycardsimg {
+    border-radius: 10px;
+}
+
+#categorybtn {
+    font-size: 25px;
+    height: 50px;
+    border-radius: 15px;
+    background-color: #764b36;
+    border: transparent;
+}
+
+h2 {
+    font-size: 70px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: #764b36;
+    font-weight: bold;
+}
+
+.card-body {
+    position: relative;
+    top: -100px;
+}
+
+
+.row {
+    justify-content: center;
+}
+
+#brandheading {
+    font-size: 100px;
+    color: #764b36;
+    margin-top: 30px;
+    margin-bottom: 40px;
+}
+
+#brandbtn {
+    position: relative;
+    top: 100px;
+    font-size: 20px;
+    height: 50px;
+    width: 150px;
+    background-color: #764b36;
+    border: none;
+    border-radius: 10px;
+    color: white;
+}
+
+.card-title {
+    position: relative;
+    top: 100px;
+    font-size: 25px;
+}
+
+.card-hover {
+    transition: all 1s ease;
+}
+
+.card-hover:hover {
+    transform: translateY(-10px) scale(1.05);
+    box-shadow: 0 20px 35px rgba(0, 0, 0, 0.25);
+}
+
+.btn-hover {
+    transition: all 1s ease;
+}
+
+.btn-hover:hover {
+    transform: translateY(-10px) scale(1.05);
+    box-shadow: 0 20px 35px rgba(0, 0, 0, 0.25);
+}
