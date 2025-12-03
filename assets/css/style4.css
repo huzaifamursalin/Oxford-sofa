@@ -65,76 +65,13 @@
     background-color: #764b36;
 }
 
-.back {
-    background-color: #764b36;
-    padding: 20px;
-    display: flex;
-}
-
-.text {
-    font-size: 20px;
-    padding: 20px;
-    align-content: end;
-    font-weight: bold;
-    color: white;
-}
-
-.ctext {
-    padding: 20px;
-    align-content: end;
-    color: white;
-}
-
-.row{
-    justify-content: center;
-}
-
-.btn-primary{
-    width: 120px;
-    background-color: #764b36;
-    border: none;
-    border-radius: 10px;
-}
-
-.btn-primary:hover{
-    background-color: #764b36;
-}
-
-
-.card-title{
-    color: #764b36;
-    font-size: 30px;
-}
-
-h4{
-    font-size: 20px;
-    color: #764b36;
-}
-
-.head{
-    color: #764b36;
-    text-align: center;
-    font-size: 70px;
-    margin: 30px;
-}
-
-.card-hover {
-    transition: all 1s ease;
-    border-radius: 20px;
-}
-
-.card-hover:hover {
-    transform: translateY(-10px) scale(1.05);
-    box-shadow: 0 20px 35px rgba(0, 0, 0, 0.25);
-}
-
 .forward-backwards {
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     font-size: 1rem;
     border: 2px solid #764b36;
     background-color: transparent;
     color: #764b36;
-   padding: 5px 15px;
+    padding: 5px 15px;
     border-radius: 25px;
     text-transform: lowercase;
     cursor: pointer;
@@ -205,4 +142,99 @@ h4{
     50% {
         transform: translate(2px);
     }
+}
+
+.section {
+    display: grid;
+    grid-template-columns: 500px 500px;
+    grid-gap: 130px;
+    padding: 30px;
+    justify-self: center;
+}
+
+.productimg {
+    height: 600px;
+    width: 600px;
+    background-color: #ebebeb;
+    border: 2px solid rgb(223, 223, 223);
+    border-radius: 25px;
+    align-content: center;
+}
+
+.productimg img {
+    border-radius: 20px;
+    margin-left: 14px;
+}
+
+.details {
+    height: 500px;
+    width: 500px;
+    background-color: #ebebeb;
+    border: 2px solid rgb(223, 223, 223);
+    border-radius: 25px;
+    padding: 20px;
+}
+
+.enquiry {
+    margin-top: 90px;
+    background-color: #764b36;
+    color: white;
+    height: 60px;
+    width: 360px;
+    text-align: center;
+    align-content: center;
+    border-radius: 15px;
+}
+
+.product-description {
+    background-color: #ebebeb;
+    border: 2px solid rgb(223, 223, 223);
+    border-radius: 25px;
+    width: 1200px;
+    padding: 30px;
+    justify-self: center;
+    justify-content: left;
+    margin: 20px;
+}
+
+.row{
+    justify-content: center;
+}
+
+.btn-primary{
+    width: 120px;
+    background-color: #764b36;
+    border: none;
+    border-radius: 10px;
+}
+
+.btn-primary:hover{
+    background-color: #764b36;
+}
+
+.card-title{
+    color: #764b36;
+    font-size: 30px;
+}
+
+h4{
+    font-size: 20px;
+    color: #764b36;
+}
+
+.head{
+    color: #764b36;
+    text-align: center;
+    font-size: 70px;
+    margin: 30px;
+}
+
+.card-hover {
+    transition: all 1s ease;
+    border-radius: 20px;
+}
+
+.card-hover:hover {
+    transform: translateY(-10px) scale(1.05);
+    box-shadow: 0 20px 35px rgba(0, 0, 0, 0.25);
 }
