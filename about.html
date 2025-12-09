@@ -65,6 +65,32 @@
                 thoughtfully designed to elevate your living space with elegance, sophistication, and enduring quality.
                 From meticulously crafted pre-made collections to fully customized, order-made designs, we offer
                 furniture that complements your lifestyle with effortless grace.</p>
+            <h1 id="abouthead">Location</h1>
+            <button onclick="getLocation()">Get My Location</button>
+
+<p id="output"></p>
+
+<script>
+function getLocation() {
+    const output = document.getElementById("output");
+
+    if (!navigator.geolocation) {
+        output.innerHTML = "Geolocation is not supported by this browser.";
+        return;
+    }
+
+    navigator.geolocation.getCurrentPosition(
+        (position) => {
+            output.innerHTML = 
+                "Latitude: " + position.coords.latitude +
+                "<br>Longitude: " + position.coords.longitude;
+        },
+        (error) => {
+            output.innerHTML = "Error: " + error.message;
+        }
+    );
+}
+</script>
 
             <h1 id="abouthead">Our Story</h1>
             <p id="aboutpara">Oxford Sofa began with a simple vision: to redefine the meaning of premium furniture. What
