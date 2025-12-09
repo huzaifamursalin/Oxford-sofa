@@ -67,31 +67,7 @@
                 furniture that complements your lifestyle with effortless grace.</p>
             <h1 id="abouthead">Location</h1>
             <button onclick="getLocation()">Get My Location</button>
-
-<p id="output"></p>
-
-<script>
-function getLocation() {
-    const output = document.getElementById("output");
-
-    if (!navigator.geolocation) {
-        output.innerHTML = "Geolocation is not supported by this browser.";
-        return;
-    }
-
-    navigator.geolocation.getCurrentPosition(
-        (position) => {
-            output.innerHTML = 
-                "Latitude: " + position.coords.latitude +
-                "<br>Longitude: " + position.coords.longitude;
-        },
-        (error) => {
-            output.innerHTML = "Error: " + error.message;
-        }
-    );
-}
-</script>
-
+            <p id="output"></p>
             <h1 id="abouthead">Our Story</h1>
             <p id="aboutpara">Oxford Sofa began with a simple vision: to redefine the meaning of premium furniture. What
                 started as a
@@ -191,6 +167,27 @@ function getLocation() {
 
         <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/2.9.2/umd/popper.min.js"></script>
         <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/5.1.0/js/bootstrap.min.js"></script>
+        <script>
+function getLocation() {
+    const output = document.getElementById("output");
+
+    if (!navigator.geolocation) {
+        output.innerHTML = "Geolocation is not supported by this browser.";
+        return;
+    }
+
+    navigator.geolocation.getCurrentPosition(
+        (position) => {
+            output.innerHTML = 
+                "Latitude: " + position.coords.latitude +
+                "<br>Longitude: " + position.coords.longitude;
+        },
+        (error) => {
+            output.innerHTML = "Error: " + error.message;
+        }
+    );
+}
+</script>
     </body>
 
 </html>
